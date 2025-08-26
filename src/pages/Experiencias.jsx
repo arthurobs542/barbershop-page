@@ -1,6 +1,6 @@
 export default function Experiencia() {
   return (
-    <section className="bg-[#f8f5ef] py-16">
+    <section className=" py-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
         {/* Coluna de texto */}
         <div>
