@@ -6,6 +6,7 @@ import Experiencia from "./Experiencias";
 import Header from "./Header";
 import Servicos from "./Servicos";
 import Tratamento from "./Tratamento";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Escolha />
       <Depoimentos />
       <AgendeHorario />
+      <Footer />
     </div>
   );
 }
