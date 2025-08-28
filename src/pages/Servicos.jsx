@@ -94,7 +94,11 @@ export default function Servicos() {
           ))}
         </div>
         <div className="flex items-center justify-center pt-10">
-          <Button text="AGENDE UM HORÁRIO" cor="bg-[#DEC7A6] text-black" />
+          <Button
+            text="AGENDE UM HORÁRIO"
+            cor="bg-[#DEC7A6] text-black"
+            targetId="agendamento"
+          />
         </div>
       </section>
     </FadeInSection>

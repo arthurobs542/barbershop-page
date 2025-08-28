@@ -23,7 +23,11 @@ export default function Header() {
 
           {/* Botões responsivos */}
           <div id="button" className="flex flex-col sm:flex-row gap-3 mt-3">
-            <Button text="AGENDE UM HORÁRIO" cor="bg-[#DEC7A6] text-black" />
+            <Button
+              text="AGENDE UM HORÁRIO"
+              cor="bg-[#DEC7A6] text-black"
+              targetId="agendamento"
+            />
             <Button
               text="VER SERVIÇOS"
               cor="text-white border border-white"
