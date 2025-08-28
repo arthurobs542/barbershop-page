@@ -1,5 +1,5 @@
 import AgendeHorario from "./AgendeHorario";
-import Contato from "./contato";
+import Contato from "./Contato";
 import Depoimentos from "./Depoimentos";
 import Escolha from "./Escolha";
 import Experiencia from "./Experiencias";
@@ -7,10 +7,11 @@ import Header from "./Header";
 import Servicos from "./Servicos";
 import Tratamento from "./Tratamento";
 import Footer from "./Footer";
+import ScrollToTop from "../components/ScrollToTop";
 
 function App() {
   return (
-    <div className="bg-[#f8f5ef]">
+    <section className="bg-[#f8f5ef]">
       <Header />
       <Contato />
       <Experiencia />
@@ -20,7 +21,8 @@ function App() {
       <Depoimentos />
       <AgendeHorario />
       <Footer />
-    </div>
+      <ScrollToTop></ScrollToTop>
+    </section>
   );
 }
 

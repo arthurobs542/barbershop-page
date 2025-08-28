@@ -7,7 +7,7 @@ import Servicos from "./src/pages/Servicos.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/barbershop-page">
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/ser" element={<Servicos />} />
