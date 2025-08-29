@@ -3,14 +3,14 @@ import "./index.css";
 import App from "./src/pages/App.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { StrictMode } from "react";
-import Servicos from "./src/pages/Servicos.jsx";
+import AgendamentoPage from "./src/pages/AgendamentoPage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<App />}></Route>
-        <Route path="/ser" element={<Servicos />} />
+        <Route path="/agendar" element={<AgendamentoPage />}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
