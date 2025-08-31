@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import FadeInSection from "../components/FadeInSection";
+import ButtonServico from "../components/ButtonServico";
 
 export default function Header() {
   return (
@@ -23,12 +24,8 @@ export default function Header() {
 
           {/* Botões responsivos */}
           <div id="button" className="flex flex-col sm:flex-row gap-3 mt-3">
-            <Button
-              text="AGENDE UM HORÁRIO"
-              cor="bg-[#DEC7A6] text-black"
-              targetId="agendamento"
-            />
-            <Button
+            <Button text="AGENDE UM HORÁRIO" cor="bg-[#DEC7A6] text-black" />
+            <ButtonServico
               text="VER SERVIÇOS"
               cor="text-white border border-white"
               targetId="servicos"
